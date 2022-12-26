@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Student Number Generator</title>
+    <link rel="stylesheet" href="/assets/misc/css/style.css">
+    <link rel="icon" href="/assets/img/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Student Number Generator</h1>
+            <p>Enter following details to generate your student number</p>
+        </header>
+        <div class="form">
+            <input type="number" min="1000000000000" max="5000000000000" value="" placeholder="Enter LRN Number" id="lrn">
+            <input type="number" min="1967" max="2022" step="1" value="" placeholder="Enter Year Enrolled" id="yre">
+            <button >Generate Student Number</button>
+        </div>
+        <div class="barcode">
+            <input disabled id="snum" value="">
+        </div>
+    </div>
+    
+    <script src="/assets/misc/js/script.js"></script>
+</body>
+</html>
